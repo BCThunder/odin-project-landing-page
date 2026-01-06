@@ -1,0 +1,166 @@
+* {
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+}
+
+body {
+  margin: 0;
+}
+
+div {
+  padding: 0px 256px;
+}
+
+.dark-bg {
+  background-color: #1f2937;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 16px;
+}
+
+.header-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-info {
+  padding: 128px 64px;
+  gap: 32px;
+  width: 1200px;
+}
+
+.header img {
+  background-color: gray;
+  width: 500px;
+  min-height: 250px;
+  height: auto;
+}
+
+.header li a {
+  display: inline-block;
+  padding: 10px, 15px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
+}
+
+.information {
+  text-align: center;
+  padding: 64px 128px;
+}
+
+.information-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 32px;
+  padding: 64px;
+}
+
+.information-item {
+  flex: 1;
+  min-width: 250px;
+  min-height: 250px;
+  color: rgb(71, 71, 71);
+  font-size: 16px;
+}
+
+.information-item img {
+  min-width: 150px;
+  min-height: 150px;
+  border-width: thick;
+  border-color: #3882f6;
+  border-radius: 15px;
+}
+
+.information-header-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.quote-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.bold-text {
+  font-style: normal;
+  font-weight: 700;
+  text-align: right;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-logo-text {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 64px 512px;
+}
+
+button {
+  background-color: #3882f6;
+  border-radius: 8px;
+  border-width: 0;
+  min-height: 50px;
+  min-width: 150px;
+  color: white;
+  font-weight: 700;
+  box-shadow: none;
+  border-style: solid;
+}
+
+button.inverted {
+    border-width: medium;
+    border-color: white;
+}
+
+.sign-up {
+  padding: 128px 256px;
+}
+
+.sign-up div {
+  background-color: #3882f6;
+  min-height: 150px;
+  color: white;
+  border-radius: 8px;
+  font-size: 24px;
+  gap: 128px;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  height: 150px;
+}
