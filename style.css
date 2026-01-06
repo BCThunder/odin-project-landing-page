@@ -1,14 +1,8 @@
-* {
-  font-family: Roboto, sans-serif;
-  font-size: 24px;
-}
-
 body {
   margin: 0;
-}
-
-div {
-  padding: 0px 256px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .dark-bg {
@@ -24,6 +18,7 @@ div {
 .header {
   display: flex;
   flex-direction: column;
+  align-items: center;
   color: white;
   padding: 16px;
 }
@@ -31,12 +26,18 @@ div {
 .header-line {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 16px 64px;
 }
 
 .header-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 128px 64px;
   gap: 32px;
-  width: 1200px;
+  max-width: 1200px;
 }
 
 .header img {
@@ -50,6 +51,8 @@ div {
   display: inline-block;
   padding: 10px, 15px;
   text-decoration: none;
+  font-size: 16px;
+  color: rgb(177, 177, 177);
 }
 
 ul {
@@ -67,25 +70,24 @@ ul {
 
 .information-container {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: center;
   gap: 32px;
-  padding: 64px;
 }
 
 .information-item {
-  flex: 1;
-  min-width: 250px;
-  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
   color: rgb(71, 71, 71);
   font-size: 16px;
+  gap: 12px;
 }
 
 .information-item img {
-  min-width: 150px;
-  min-height: 150px;
-  border-width: thick;
-  border-color: #3882f6;
+  width: 150px;
+  height: 150px;
+  border: 4px solid #3882f6;
   border-radius: 15px;
 }
 
@@ -93,6 +95,7 @@ ul {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+  margin-bottom: 48px;
 }
 
 .quote-text {
@@ -102,10 +105,10 @@ ul {
   font-style: italic;
 }
 
-.bold-text {
-  font-style: normal;
-  font-weight: 700;
-  text-align: right;
+.quote-author {
+    text-align: right;
+    font-weight: 700;
+    margin-top: 16px;
 }
 
 .hero-main-text {
@@ -126,7 +129,7 @@ ul {
 
 .quote {
   background-color: #e5e7eb;
-  padding: 64px 512px;
+  padding: 64px 400px;
 }
 
 button {
